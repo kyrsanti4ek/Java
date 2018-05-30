@@ -1,0 +1,17 @@
+ public static void main(String[] args) {
+
+
+        // ????? ????????? ????? ?????? (strings and int)
+
+
+        ArrayList array = new ArrayList();
+        array.add("Hello");
+        array.add(10);
+
+
+            System.out.println(array.get(0));
+            System.out.println(array.get(1));
+
+
+    }
+}

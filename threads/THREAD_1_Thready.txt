@@ -1,0 +1,19 @@
+package com.company;
+
+import com.company.Main;
+
+public class Thready extends Main implements Runnable  {
+    @Override
+    public void run() {
+
+
+        for (int j = 999; j >=500 ; j--) {
+
+
+            array[j] = j;
+            System.out.println(array[j]);
+
+        }
+
+    }
+}
